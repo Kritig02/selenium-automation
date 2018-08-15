@@ -1,0 +1,26 @@
+{
+  "name": "astro_assignment_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run chromeHeadless && npm run exit",
+    "firefox": "node_modules/.bin/nightwatch",
+    "chromeHeadless": "node_modules/.bin/nightwatch --env chromeHeadless",
+    "chrome": "node_modules/.bin/nightwatch --env chrome",
+    "upload": "aws s3 cp reports/test_report.html s3://kriti-automation/index.html",
+    "exit": "exit 0"
+  },
+  "author": "Kriti Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "chalk": "^2.4.1",
+    "nightwatch": "^1.0.8",
+    "nightwatch-html-reporter": "^2.0.5",
+    "opn": "^5.3.0",
+    "tableify": "^1.1.0",
+    "ws": "^6.0.0"
+  }
+}
