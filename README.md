@@ -21,6 +21,8 @@ Supported Browsers :
 
 ###  [Sample Selenium Report](https://s3-ap-southeast-1.amazonaws.com/kriti-automation/report1534353050135.html)
 
+[![Demo Gif](https://s3-ap-southeast-1.amazonaws.com/kriti-automation/Selenium_KritiGupta.gif)](https://s3-ap-southeast-1.amazonaws.com/kriti-automation/Selenium_KritiGupta.gif)
+
 ************
 
 ## Installation : 
@@ -50,5 +52,3 @@ Supported Browsers :
 
 
 ********************
-
-[![Demo Gif](https://s3-ap-southeast-1.amazonaws.com/kriti-automation/Selenium_KritiGupta.gif)](https://s3-ap-southeast-1.amazonaws.com/kriti-automation/Selenium_KritiGupta.gif)
